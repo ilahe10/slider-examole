@@ -1,0 +1,94 @@
+
+.container{ 
+    width: 100%;
+    height: 100vh;
+}
+#slider{
+	position:relative;
+    width: 100%;
+    height: 60vh;
+    box-shadow: 0 0 10px gray;
+}
+#card-text {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}
+#card-text p{
+    background:  rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #f1f1f1;
+}
+#slider a{
+	font-size: 2em;
+    color: black;
+	top: 50%; 
+	padding: 10px; 
+	background: #fff; 
+	cursor: pointer;
+	position: absolute;
+}
+.left{ left: 2%; }
+.right{ right: 2%; }
+
+#card-text h1{
+    padding-right: 0px;
+    color: #f1f1f1;
+    text-align: center;
+}
+#slider #ribbon {
+   position: absolute;
+   bottom: -25px;
+   width: 100%;
+}
+
+#thumbs {
+    
+    display: flex;
+    justify-content: center;
+}
+#thumbs i {
+    color: honeydew;
+}
+#thumbs>div{
+    background: #3d3d3d;
+    width: 15px; 
+	height: 15px; 
+	border-radius: 50%; 
+	box-shadow: 0 0 5px black; 
+	margin: 0 10px;
+	cursor: pointer;
+	z-index:99;
+    user-select:none;
+}
+#thumbs>div:hover{
+  background-color: #0E155A ;
+}
+#slider>a:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+@media only screen and (min-width: 600px) {
+    .container{ 
+        width: 85%;
+        height: 85vh;
+        margin: auto;
+    }
+    #slider{
+        height: 85vh; 
+    }
+  
+    #card-text {
+        left: 5%;
+        width: 95%;
+    }
+    #card-text p{
+        text-align: left;
+        padding: 10px;
+    }
+    #card-text h1{
+        text-align: left;
+        padding-right: 10px;
+    }
+    
+}

@@ -1,0 +1,50 @@
+{"slider":[
+	{
+		"image": "1.jpg",
+		"text": {
+			"h1": "Demo - Sliders",
+			"p": "Lorem Ipsum is srem Ipsum is simply dummy text of the printing"
+		},
+		"url": "https://www.jssor.com/demos/image-slider.slider"
+	},
+	{
+		"image": "2.jpg",
+		"text": {
+			"h1": "Why do we use it?",
+			"p": "Lorem Ipsum is simply dummy text of tummy text of the printing "
+		},
+		"url": "https://www.jssor.com/demos/ski/ski.slider"
+	},
+	{
+		"image": "3.jpg",
+		"text": {
+			"h1": "Music slider",
+			"p": "Lorem Ipsum is simply dummy text of the printing </br> simply dummy text of "
+		},
+		"url": "https://www.jssor.com/premium/music/music.slider"
+	},
+	{
+		"image": "1.jpg",
+		"text": {
+			"h1": "Why do we use it?",
+			"p": "Lorem Ipsum is simply dummy text of the printing </br>Lorem Ipsum is simply dummy text of the printing "
+		},
+		"url": "https://www.jssor.com/demos/image-slider.slider"
+	},
+	{
+		"image": "4.jpg",
+		"text": {
+			"h1": "Demo - Sliders",
+			"p": " Lorem Ipsum is </br>simply dummy text"
+		},
+		"url": "https://www.jssor.com/demos/image-slider.slider"
+	},
+	{
+		"image": "5.jpg",
+		"text": {
+			"h1": "why we",
+			"p": "fashion fashion.</br>choose with we "
+		},
+		"url": "https://www.jssor.com/premium/fashion/fashion.slider"
+	}
+]}
